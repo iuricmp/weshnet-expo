@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { useState, useEffect } from 'react';
 
-import * as WeshnetExpo from 'weshnet-expo';
+import * as WeshnetExpo from '@weshnet/expo';
 
 export default function App() {
     const [asyncMsg, setAsyncMsg] = useState('')
